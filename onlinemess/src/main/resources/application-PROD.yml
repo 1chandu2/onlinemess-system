@@ -1,9 +1,0 @@
-#############################################################
-########## PROD Environment ################################
-#############################################################
-spring:
-   profiles: PROD
-   datasource:
-      url: jdbc:mysql://prod-server-host-name:3306/db_name
-      username: user_name
-      password: password
